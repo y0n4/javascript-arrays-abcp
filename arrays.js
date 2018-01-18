@@ -41,5 +41,3 @@ function removeElementFromEndOfArray(array){
 }
 
 //remove element from mid of array >> return copy of og array
-
-function removeElementFromBeginningoFArray
