@@ -38,14 +38,18 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 function removeElementFromBeginningOfArray(array){
+  //.slice() COPIES
   return array.slice(1);
 }
 
 
 
 function destructivelyRemoveElementFromEndOfArray(array){
+  //.pop() MUTATES
   array.pop()
   return array;
 }
-
+function removeElementFromEndOfArray(array){
+  return array.slice(0, array.length-1);
+}
 
