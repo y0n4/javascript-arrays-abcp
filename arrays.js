@@ -25,11 +25,6 @@ function destructivelyAddElementToEndOfArray(array, element){
 
 
 
-
-
-
-
-
-
-
-//remove element from mid of array >> return copy of og array
+function accessElementInArray(array, index) {
+  return array[index];
+}
