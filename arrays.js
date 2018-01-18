@@ -32,8 +32,9 @@ function removeElementFromBeginningOfArray(array){
 
 //push MUTATES
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.push();
-  return array;
+  newArray = []
+  newArray.push();
+  return newArray;
 }
 
 function removeElementFromEndOfArray(array){
