@@ -7,4 +7,8 @@ function addElementToBeginningOfArray (array, element) {
   return [element, ...array];
 }
 
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element);
+  return array;
+}
 //remove element from mid of array >> return copy of og array
