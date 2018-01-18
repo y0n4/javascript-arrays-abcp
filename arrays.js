@@ -11,3 +11,34 @@ function destructiveAddElementToBeginningOfArray (array, element){
   array.unshift(element);
   return array;
 }
+
+function accessElementInArray(array, index) {
+  return array[index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray (array) {
+  array.shift();
+  return array;
+}
+
+//slice COPY and return the length element (single num)
+//return array thats kept (double num)
+
+function removeElementFromBeginningOfArray(array){
+  // or array.slice(1, lastIndex);
+  var newArray = array.slice(1);
+  return newArray;
+}
+
+//push MUTATES
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.push();
+  return array;
+}
+
+function removeElementFromEndOfArray(array){
+  var newArray = array.slice(0, array.length-1)
+  return newArray;
+}
+
+//remove element from mid of array >> return copy of og array
